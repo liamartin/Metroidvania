@@ -1,0 +1,415 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'es' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Lia/Unity Hub/Metroidvania
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59334
+Successfully changed project path to: C:/Users/Lia/Unity Hub/Metroidvania
+C:/Users/Lia/Unity Hub/Metroidvania
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 117.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lia/Unity Hub/Metroidvania/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   31.0.14033.1012
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007783 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 93.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.543 seconds
+Domain Reload Profiling:
+	ReloadAssembly (543ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (396ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (78ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007042 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lia\Unity Hub\Metroidvania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lia\Unity Hub\Metroidvania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 99.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.150 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1151ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (864ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (494ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5504 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (1.2 MB). Loaded Objects now: 5941.
+Memory consumption went from 214.4 MB to 213.1 MB.
+Total: 3.403700 ms (FindLiveObjects: 0.325900 ms CreateObjectMapping: 0.169300 ms MarkObjects: 2.479200 ms  DeleteObjects: 0.428500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1162995.077558 seconds.
+  path: Assets/Characters/basic
+  artifactKey: Guid(6af42618913f422478ba8dbb1461c0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic using Guid(6af42618913f422478ba8dbb1461c0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01ea226974ac5da51c13e6e3f500bfe') in 0.010315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035665 seconds.
+  path: Assets/Characters/basic/basic_animesword_attack.gif
+  artifactKey: Guid(ebbf63bb36fb21b469f820bcee7e3e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_animesword_attack.gif using Guid(ebbf63bb36fb21b469f820bcee7e3e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7987ab5735cd147fe393af47fe406be4') in 0.101399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Characters/basic/basic_bow_attack_no_arrow_02.png
+  artifactKey: Guid(36e20bdb873da8743ba9905593fb23d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_bow_attack_no_arrow_02.png using Guid(36e20bdb873da8743ba9905593fb23d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16329a7c2c52faa8ae797c965ab9d6d4') in 0.015611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Characters/basic/basic_bow_attack_08.png
+  artifactKey: Guid(4c36d57c153fadf4cb60bb11f7f5f012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_bow_attack_08.png using Guid(4c36d57c153fadf4cb60bb11f7f5f012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412cf018db5db18933cf936dd2988f35') in 0.010727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Characters/basic/basic_animesword_run_02.png
+  artifactKey: Guid(ab7b18aed6ee1994b822e127b7dc0846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_animesword_run_02.png using Guid(ab7b18aed6ee1994b822e127b7dc0846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3cd50d950751951e1294c472df1c6c') in 0.011510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Characters/basic/basic_animesword_attack_14.png
+  artifactKey: Guid(a79bdb3c65282c34b89189646af97c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_animesword_attack_14.png using Guid(a79bdb3c65282c34b89189646af97c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c95011e7a59d02d7f789de597d8bd2') in 0.010908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Characters/basic/basic_bow_attack_no_arrow_03.png
+  artifactKey: Guid(733d291b3e0d919438201477cd035183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_bow_attack_no_arrow_03.png using Guid(733d291b3e0d919438201477cd035183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd38a0e5396ca05bd93a97a33d34ced') in 0.010009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Characters/basic/basic_animesword_attack_10.png
+  artifactKey: Guid(fac7e28f3e349464a8fb1f8a65af13e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_animesword_attack_10.png using Guid(fac7e28f3e349464a8fb1f8a65af13e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbd97ba930aefffe38e085778041e2f') in 0.012196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Characters/basic/basic_axe_attack_09.png
+  artifactKey: Guid(662abe1642197fe4faec40b4e754006e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_axe_attack_09.png using Guid(662abe1642197fe4faec40b4e754006e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3a619cf1b611af7267fd001a2955da') in 0.011461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Characters/basic/basic_axe_attack_02.png
+  artifactKey: Guid(176bc3441362abb41a30243bfc642607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_axe_attack_02.png using Guid(176bc3441362abb41a30243bfc642607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980ea679e4ad45035471291ed14a5fba') in 0.010979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters/basic/basic_axe_idle.gif
+  artifactKey: Guid(2386bacd6c062f641b8b1d07d68e6e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_axe_idle.gif using Guid(2386bacd6c062f641b8b1d07d68e6e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e90539b97679cc53213b2f72f7ac8df') in 0.011608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Characters/basic/basic_animesword_run_08.png
+  artifactKey: Guid(f8e3eed9ef42f964797523910e48440f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_animesword_run_08.png using Guid(f8e3eed9ef42f964797523910e48440f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35453262c76cc4b920508a9db8a7abcd') in 0.012843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Characters/basic/basic_animesword_attack_13.png
+  artifactKey: Guid(b70093698166b8f46b0b2acef61d9c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_animesword_attack_13.png using Guid(b70093698166b8f46b0b2acef61d9c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4458428fb8889b59188aa098f835ee92') in 0.011737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Characters/basic/basic_animesword_attack_08.png
+  artifactKey: Guid(073b709eef22ffb4f939000a420b0748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_animesword_attack_08.png using Guid(073b709eef22ffb4f939000a420b0748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf1f6c1221aaa739e74e840d32bc83c') in 0.012539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Characters/basic/basic_animesword_attack_20.png
+  artifactKey: Guid(e6b08d008ec8beb46823a28f12a26891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_animesword_attack_20.png using Guid(e6b08d008ec8beb46823a28f12a26891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0802fc124f227748389cca80fe350b') in 0.011668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Characters/basic/basic_animesword_idle_01.png
+  artifactKey: Guid(857ca73f21506f740a1c1896c0d2ee11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_animesword_idle_01.png using Guid(857ca73f21506f740a1c1896c0d2ee11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041294bfb3c060aa8b91883e81101947') in 0.011859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Characters/basic/basic_axe_run_06.png
+  artifactKey: Guid(516807597a7b0474a8989fe5a3bb7b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_axe_run_06.png using Guid(516807597a7b0474a8989fe5a3bb7b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44706b81d238d0550352ba8c28e50c7d') in 0.011484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Characters/basic/basic_axe_idle_02.png
+  artifactKey: Guid(2070f84b5b1c3ca4f985e85134681a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_axe_idle_02.png using Guid(2070f84b5b1c3ca4f985e85134681a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5118bc8a46d8893863aa217ca3107497') in 0.013345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters/basic/basic_axe_attack_11.png
+  artifactKey: Guid(3f54df3c196b65b45a5313c14488e380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_axe_attack_11.png using Guid(3f54df3c196b65b45a5313c14488e380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a25fbf6341c2edff2eadcfe5cd933c') in 0.012675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Characters/basic/basic_animesword_attack_07.png
+  artifactKey: Guid(1411459979d3a044eac71b3de004e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_animesword_attack_07.png using Guid(1411459979d3a044eac71b3de004e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd23ed4895fa35e3a93225f25a623bd') in 0.013236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Characters/basic/basic_axe_idle_03.png
+  artifactKey: Guid(26e49c30a2acb6946b962aeff5f41f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_axe_idle_03.png using Guid(26e49c30a2acb6946b962aeff5f41f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8226b63281f0a789cdaa2ea94284fe') in 0.011772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Characters/basic/basic_animesword_run_03.png
+  artifactKey: Guid(021da705f43557f46917f028e9ce32d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_animesword_run_03.png using Guid(021da705f43557f46917f028e9ce32d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e402e967ebd6bb23a93cf8262e2bb00e') in 0.011676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Characters/basic/basic_animesword_attack_17.png
+  artifactKey: Guid(646ec05882d4e4d4a92f4adac5f1b11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_animesword_attack_17.png using Guid(646ec05882d4e4d4a92f4adac5f1b11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf1acc2b5553401c3a205e44ff33bc8') in 0.016496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Characters/basic/basic_animesword_attack_15.png
+  artifactKey: Guid(11e765e52188b7e4a81f485bb6256179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_animesword_attack_15.png using Guid(11e765e52188b7e4a81f485bb6256179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce4da58c13da81ff01dfecb2d33d4af') in 0.011336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Characters/basic/basic_bow_attack_07.png
+  artifactKey: Guid(25ed5f3212a2516479f1cf6351906b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_bow_attack_07.png using Guid(25ed5f3212a2516479f1cf6351906b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ac736cbdc4fce1d2dda89002ad3bc3') in 0.011956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.163210 seconds.
+  path: Assets/Characters/basic/basic_bow_attack_no_arrow_06.png
+  artifactKey: Guid(693e0d884a5dfc548830c9dd1767e988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_bow_attack_no_arrow_06.png using Guid(693e0d884a5dfc548830c9dd1767e988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cfe004faa3504c06e76a2cae4df76b') in 0.011324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Characters/basic/basic_bow_idle_03.png
+  artifactKey: Guid(e2ed817230b83d14b8fe41797850d53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_bow_idle_03.png using Guid(e2ed817230b83d14b8fe41797850d53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624442369d5ff90fd579c4310d619291') in 0.011003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Characters/basic/basic_bow_run_02.png
+  artifactKey: Guid(20c91867f1b7aed418a4cd69f59c5bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_bow_run_02.png using Guid(20c91867f1b7aed418a4cd69f59c5bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce113c02e032c32666df8dd4c7036958') in 0.011164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters/basic/basic_bow_run_04.png
+  artifactKey: Guid(c3bc0777d5cc2234d8d3dcf783259e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_bow_run_04.png using Guid(c3bc0777d5cc2234d8d3dcf783259e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb4b930f398218db147294d15cfc2f9') in 0.011402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Characters/basic/basic_bow_run_01.png
+  artifactKey: Guid(ae502a05b03e55d4989878e4aceb5467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_bow_run_01.png using Guid(ae502a05b03e55d4989878e4aceb5467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9c5f8bb55f09859f4dfb6038179434') in 0.011802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064104 seconds.
+  path: Assets/Characters/basic/basic_bow_run_08.png
+  artifactKey: Guid(d0e78d044624a00499ab0059e21e398b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_bow_run_08.png using Guid(d0e78d044624a00499ab0059e21e398b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19d8b13bbec9df53f65b0612996931a') in 0.010910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Characters/basic/basic_jump.gif
+  artifactKey: Guid(2480b28b51a965149b7367600b1b072d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_jump.gif using Guid(2480b28b51a965149b7367600b1b072d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d053292d558382f5b4deb7750fa40c6') in 0.010963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Characters/basic/basic_idle_02.png
+  artifactKey: Guid(f5ea1e1cc91a77149baf5f273da39507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_idle_02.png using Guid(f5ea1e1cc91a77149baf5f273da39507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd553be221a48cdcb6ed8c8cfd01f428a') in 0.010368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Characters/basic/basic_jump_01.png
+  artifactKey: Guid(7e7a762d6b41d0044a9a499fe7542ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_jump_01.png using Guid(7e7a762d6b41d0044a9a499fe7542ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4870c8cba08b20f3a593557d6e3b48c7') in 0.010727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Characters/basic/basic_idle.gif
+  artifactKey: Guid(0a55d78b240edc44f91629a620c47ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_idle.gif using Guid(0a55d78b240edc44f91629a620c47ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d55b5c8d0dafbda32979e3a9070733') in 0.011453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.093893 seconds.
+  path: Assets/Characters/basic/basic_jump_07.png
+  artifactKey: Guid(b93692decf098f748920b62928179d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_jump_07.png using Guid(b93692decf098f748920b62928179d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd428c973fec507d08349aef511ed3028') in 0.011142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters/basic/basic_pique_attack_11.png
+  artifactKey: Guid(b5ec75550ca0c7d46be08f9958c58ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_pique_attack_11.png using Guid(b5ec75550ca0c7d46be08f9958c58ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36d6e55af50bf22059228e90e9aa42c') in 0.011513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Characters/basic/basic_pique_attack.gif
+  artifactKey: Guid(267dae996d2067f49bb148f989a38354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_pique_attack.gif using Guid(267dae996d2067f49bb148f989a38354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61168a9115fe99d37769619b91f624ad') in 0.012399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Characters/basic/basic_pique_attack_01.png
+  artifactKey: Guid(9b52d1f1c5c2c1a47b86801d2703c1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_pique_attack_01.png using Guid(9b52d1f1c5c2c1a47b86801d2703c1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff0d930c0546e5086130cca92dced15') in 0.011373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Characters/basic/basic_pique_attack_04.png
+  artifactKey: Guid(30a683a209f529b4fb26bf51603f7c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/basic/basic_pique_attack_04.png using Guid(30a683a209f529b4fb26bf51603f7c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd42fb67d9a62e59cdab69db16ae804') in 0.010791 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
